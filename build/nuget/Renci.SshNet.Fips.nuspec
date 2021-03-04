@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>SSH.NET.FIPS</id>
+    <version>2020.0.1</version>
+    <title>SSH.NET.FIPS</title>
+    <authors>Jason Kayser</authors>
+    <owners>Jason Kayser</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/jkayser-mri/SSH.NET.FIPS</projectUrl>
+    <description>A FIPS compliant version of Renci.Ssh.Net</description>
+    <releaseNotes>.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Ssh Fips</tags>
+	<dependencies>
+	 <group targetFramework="net40" />
+	</dependencies>
+  </metadata>
+</package>

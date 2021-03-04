@@ -3,9 +3,9 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyDescription("SSH.NET.FIPS is a Secure Shell (SSH) library for .NET, optimized for parallelism and altered to be FIPS compliant. Note that this is only net40 compatible.")]
-[assembly: AssemblyCompany("Renci, MRIGlobal")]
+[assembly: AssemblyCompany("MRIGlobal")]
 [assembly: AssemblyProduct("SSH.NET.FIPS")]
-[assembly: AssemblyCopyright("Copyright © Renci 2010-2021")]
+[assembly: AssemblyCopyright("Copyright 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

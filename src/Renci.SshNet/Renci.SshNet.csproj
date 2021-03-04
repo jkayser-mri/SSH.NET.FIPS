@@ -10,10 +10,13 @@
     <TargetFrameworks>net40</TargetFrameworks>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Renci, Jason Kayser</Authors>
+    <Authors>Jason Kayser</Authors>
     <RepositoryUrl>https://github.com/jkayser-mri/SSH.NET.FIPS</RepositoryUrl>
     <PackageProjectUrl>https://github.com/jkayser-mri/SSH.NET.FIPS</PackageProjectUrl>
+	<Version>2020.0.1</Version>
     <DelaySign>false</DelaySign>
+    <PackageId>SSH.NET.FIPS</PackageId>
+    <PackageTags>Ssh Fips</PackageTags>
   </PropertyGroup>
 
   <!--

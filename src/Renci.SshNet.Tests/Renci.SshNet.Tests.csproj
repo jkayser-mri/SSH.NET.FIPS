@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\Renci.SshNet.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\Renci.SshNet.FIPS.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '15.0' ">
@@ -46,10 +47,6 @@
     <EmbeddedResource Include="Data\Key.SSH2.DSA.txt" />
     <EmbeddedResource Include="Data\Key.SSH2.RSA.Encrypted.Des.CBC.12345.txt" />
     <EmbeddedResource Include="Data\Key.SSH2.RSA.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\Renci.SshNet.snk" Link="Renci.SshNet.snk" />
   </ItemGroup>
   
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '15.0' ">
