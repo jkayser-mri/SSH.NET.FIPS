@@ -63,7 +63,7 @@ namespace Renci.SshNet.Abstractions
 #else
         public static global::SshNet.Security.Cryptography.MD5 CreateMD5()
         {
-            return new global::SshNet.Security.Cryptography.MD5();
+            return new System.Security.Cryptography.SHA1CryptoServiceProvider();
         }
 #endif // FEATURE_HASH_MD5
 
@@ -71,7 +71,7 @@ namespace Renci.SshNet.Abstractions
         public static System.Security.Cryptography.SHA1 CreateSHA1()
         {
 #if FEATURE_HASH_SHA1_CREATE
-            return System.Security.Cryptography.SHA1.Create();
+            return new System.Security.Cryptography.SHA1CryptoServiceProvider();
 #elif FEATURE_HASH_SHA1_MANAGED
             return new System.Security.Cryptography.SHA1Managed();
 #endif
@@ -87,7 +87,7 @@ namespace Renci.SshNet.Abstractions
         public static System.Security.Cryptography.SHA256 CreateSHA256()
         {
 #if FEATURE_HASH_SHA256_CREATE
-            return System.Security.Cryptography.SHA256.Create();
+            return new System.Security.Cryptography.SHA256CryptoServiceProvider();
 #elif FEATURE_HASH_SHA256_MANAGED
             return new System.Security.Cryptography.SHA256Managed();
 #endif
@@ -103,7 +103,7 @@ namespace Renci.SshNet.Abstractions
         public static System.Security.Cryptography.SHA384 CreateSHA384()
         {
 #if FEATURE_HASH_SHA384_CREATE
-            return System.Security.Cryptography.SHA384.Create();
+            return new System.Security.Cryptography.SHA384CryptoServiceProvider();
 #elif FEATURE_HASH_SHA384_MANAGED
             return new System.Security.Cryptography.SHA384Managed();
 #endif
@@ -119,7 +119,7 @@ namespace Renci.SshNet.Abstractions
         public static System.Security.Cryptography.SHA512 CreateSHA512()
         {
 #if FEATURE_HASH_SHA512_CREATE
-            return System.Security.Cryptography.SHA512.Create();
+            return new System.Security.Cryptography.SHA512CryptoServiceProvider();
 #elif FEATURE_HASH_SHA512_MANAGED
             return new System.Security.Cryptography.SHA512Managed();
 #endif

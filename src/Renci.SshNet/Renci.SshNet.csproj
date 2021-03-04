@@ -3,11 +3,17 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyName>Renci.SshNet</AssemblyName>
-    <AssemblyOriginatorKeyFile>../Renci.SshNet.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>Renci.SshNet.FIPS</AssemblyName>
+    <AssemblyOriginatorKeyFile>../Renci.SshNet.FIPS.snk</AssemblyOriginatorKeyFile>
     <LangVersion>5</LangVersion>
     <SignAssembly>true</SignAssembly>
-    <TargetFrameworks>net35;net40;netstandard1.3;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net40</TargetFrameworks>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Renci, Jason Kayser</Authors>
+    <RepositoryUrl>https://github.com/jkayser-mri/SSH.NET.FIPS</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jkayser-mri/SSH.NET.FIPS</PackageProjectUrl>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <!--
