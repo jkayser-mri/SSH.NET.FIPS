@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyVersion("2020.0.1")]
 [assembly: AssemblyFileVersion("2020.0.1")]
-[assembly: AssemblyInformationalVersion("2020.0.1")]
+[assembly: AssemblyInformationalVersion("2020.0.1.1")]
 [assembly: CLSCompliant(false)]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

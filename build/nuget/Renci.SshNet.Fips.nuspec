@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SSH.NET.FIPS</id>
-    <version>2020.0.1</version>
+    <version>2020.0.1.1</version>
     <title>SSH.NET.FIPS</title>
     <authors>Jason Kayser</authors>
     <owners>Jason Kayser</owners>
